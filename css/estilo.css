@@ -1,0 +1,40 @@
+
+html{
+  width: 90%
+  height: 90%
+}
+
+
+.thumbnail{
+  -webkit-box-shadow: 0px 3px 9px rgba(50, 50, 50, 0.3);
+
+}
+.thumb{
+	width: .thumb:width;
+	height: .thumb:height;
+  transition:0.2s;
+
+
+
+}
+.thumb:hover{
+transform: scale(1.05);
+transition:0.2s;
+}
+
+#descricao{
+  margin-top: 30px;
+}
+
+@media only screen and (min-width: 992px) {
+  .thumbnail{
+    height:110%;
+  }
+}
+/*
+@media only screen and (max-width: 660px) {
+  .thumbnail{
+    //alterar classe para col-xs-12
+  }
+}
+*/

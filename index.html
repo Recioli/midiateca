@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilo.css">
+    <title>Mídiateca</title>
+  </head>
+  <body>
+
+    <header>
+    		<nav class="navbar navbar-default ">
+    			<div class="container">
+
+    				<div class="navbar-header">
+    					<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#collapse-navbar" aria-expanded="false">
+      						<span class="sr-only">Toggle navigation</span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+      						<span class="icon-bar"></span>
+    					</button>
+    				</div>
+
+    				<div class="collapse navbar-collapse" id="collapse-navbar">
+    					<ul class="nav navbar-nav">
+                <li><a href="#">Home</a></li>
+                <li><a href="paginas/palestras.html">Palestras</a></li>
+    						<li><a href="paginas/eventos.html">Eventos</a></li>
+    						<li><a href="paginas/noticias.html">Notícias</a></li>
+                <li><a href="paginas/sistemas.html">Sistemas</a></li>
+                <li><a href="paginas/procedimentos.html">Procedimentos</a></li>
+                <li><a href="paginas/diversosCIEE.html">Diversos CIEE</a></li>
+    					</ul>
+    				</div>
+
+    			</div>
+    		</nav>
+
+
+    	</header>
+
+          <section class = "palestras container">
+              <h2>Palestras</h2>
+              <div id="Palestras"></div>
+          </section>
+
+          <section class = "eventos container">
+              <h2>Eventos</h2>
+              <div id="Eventos"></div>
+          </section>
+
+          <section class = "container" >
+                <h2>Notícias</h2>
+                <div id="Noticias"></div>
+          </section>
+
+          <section class = "container" >
+                <h2>Sistemas</h2>
+                <div id="Sistemas"></div>
+          </section>
+
+          <section class = "container" >
+                <h2>Procedimentos</h2>
+                <div id="Procedimentos"></div>
+          </section>
+          <section class = "container" >
+                <h2>Diversos</h2>
+                <div id="Diversos"></div>
+          </section>
+
+
+  <script src="js/jquery.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+  <script src="js/criacaoDinamica.js"> </script>
+  <script src="js/home.js"></script>
+	<script src="js/navbar-animation-fix.js"></script>
+
+
+  </body>
+</html>
